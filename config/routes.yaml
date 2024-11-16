@@ -1,0 +1,11 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+api_login_check:
+    path: /login
+
+jwt_refresh:
+    path: /api/login/refresh
+
