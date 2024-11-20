@@ -27,3 +27,8 @@ services:
         arguments: [ '@request_stack' ]
         tags:
             - { name: kernel.event_listener, event: lexik_jwt_authentication.on_jwt_created, method: onJWTCreated }
+    App\Service\FileWatcher:
+        arguments:
+            $filePath: '%kernel.project_dir%/data/currency.json'
+    App\Command\RabbitMQConsumerCommand:
+        tags: ['console.command']

@@ -29,6 +29,15 @@
     "endroid/qr-code-bundle": {
         "version": "5.0.1"
     },
+    "enqueue/enqueue-bundle": {
+        "version": "0.10",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "0.9",
+            "ref": "c6ec89b63f963d10ad0d7a7bea170359c119c8bc"
+        }
+    },
     "gesdinet/jwt-refresh-token-bundle": {
         "version": "1.3",
         "recipe": {
